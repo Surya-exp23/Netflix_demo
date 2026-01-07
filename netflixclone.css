@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luckiest+Guy&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    background: black;
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+}
+
+.main .content{
+    display: flex;
+    margin-left: 5px;
+    width: 100%;
+    height: 100vh;
+}
+
+.main .navbar{
+    background: rgb(0, 0, 0);
+    width: 93px;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    align-items: center;
+    padding-top: 80px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar a{
+    margin: 22px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff;
+}
+
+
+.moneyheist{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background: rgb(0, 0, 0) ;
+    overflow: hidden;
+    color: white;
+    overflow-x: hidden; 
+}
+
+.moneyheist .poster{
+    font-family: "Poppins", sans-serif;
+}
+.moneyheist .poster img{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.moneyheist::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,0.95) 30%,
+        rgba(0,0,0,0.6) 60%,
+        rgba(0,0,0,0.1) 100%
+    );
+    z-index: 1;
+}
+.moneyheist .logo {
+    padding-left: 180px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 80px;
+    margin-bottom: 23px;
+    margin-left: 60px;
+    font-size: 19px;
+    letter-spacing: 4px;
+}
+
+.moneyheist .logo img {
+    width: 38px;
+    height: auto;
+}
+
+.moneyheist .title{
+    position: relative;
+    padding-left: 180px;
+    z-index: 2;
+    font-weight: 630;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    font-style: normal;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-size: 74px;
+    opacity: 1;
+}
+
+.title .highlight {
+  background: linear-gradient(to left, #ff0000, #990000);   
+  color: #fff;
+  border-radius: 3px;
+  padding: 2px 12px; 
+}
+
+
+.moneyheist .metaa {
+    position: relative;
+    padding-left: 180px;
+    z-index: 2;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-size: 17px;
+    opacity: 0.9;
+    font-family: "Poppins", sans-serif;
+}
+
+.moneyheist .metaa .red{
+    color: #e50914;
+}
+
+.moneyheist .metaa i{
+    color: yellow;
+}
+
+.moneyheist .metaa  i:hover{
+    color: rgb(255, 255, 196);
+}
+
+.moneyheist .buttons {
+    padding-left: 180px;
+    position: relative;
+    z-index: 2;
+    margin-left: 60px;
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.moneyheist .play {
+    background: #e50914;
+    font-size: 20px;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.moneyheist .play:hover{
+    background: #cb000a;
+}
+
+
+.moneyheist .trailer {
+    background: rgba(255,255,255,0.15);
+    font-size: 20px;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.moneyheist .trailer:hover{
+    background: rgba(255, 255, 255, 0.12);
+}
+
+
+
+.main .trending{
+    color: #fff;
+}
