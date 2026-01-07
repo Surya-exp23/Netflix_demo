@@ -30,7 +30,7 @@ A **Netflix home page clone** built using **HTML and CSS**, focusing on recreati
 
 ## 📁 Project Structure  
 
-📦 Netflix-Home-Page-Clone
+📦 Netflix-Home-Page-Clone  
  ┣ 📜 netflixclone.html  
  ┣ 📜 netflixclone.css  
  ┗ 🖼️ assets/  
