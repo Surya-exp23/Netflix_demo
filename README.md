@@ -22,7 +22,7 @@ A **Netflix home page clone** built using **HTML and CSS**, focusing on recreati
 ## ▶️ How to Use  
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+    https://github.com/your-username/your-repo-name.git
 2. Open the netflixclone.html file in any modern web browser.  
 3. Explore or modify the layout and styles for learning purposes.  
 
